@@ -7,10 +7,10 @@ public class Nave : MonoBehaviour
   private float velocidadX = 8;
   [SerializeField] Transform PrefabDisparo;
   private float velocidadDisparo = 4;
-  
+  bool alcanzado;
   void Start()
     {
-     
+     alcanzado = false;
     }
 
    
@@ -28,11 +28,18 @@ public class Nave : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+
       if (other.tag == "DisparoEnemigo")
       {
         Destroy(other.gameObject);
-        gameObject.GetComponent<Animator>().SetTrigger("Destroy");
+        if(!alcanzado)
+        {
+          alcanzado=true;
+          FindObjectOfType<GameController>().SendMessage("RestarVida");
+        }
+        
       }
+     
     }
 
    

@@ -146,4 +146,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabDisparoEnemigo: {fileID: 6369003059389191427, guid: ec60a12c2ad00324383d9dc1e953d86e, type: 3}
-  velocidadDisparoEnemigo: -4
+  velocidadDisparoEnemigo: -6
+  velocidad: 2

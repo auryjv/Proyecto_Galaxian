@@ -7,6 +7,8 @@ TagManager:
   - Enemigo
   - Disparo
   - DisparoEnemigo
+  - Limite
+  - LimiteInferior
   layers:
   - Default
   - TransparentFX
