@@ -1,0 +1,1295 @@
+fileFormatVersion: 2
+guid: 4bd192fbb00572b4fa891a22b6f050c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 26, y: 289, z: 249, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 290
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c88f9e10ce9cf46a342a01e9789325
+      internalID: -893618642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 290
+        width: 79
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b10a48d32c83b14295d861a91ca0be9
+      internalID: -1737548555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 290
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044b070a246ab4f48b662e245c69eb68
+      internalID: -428748801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_27
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 290
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e8fdccbaf0924986a2799138c564c
+      internalID: 116608568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 234
+        width: 191
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e1714307863d14395bf3c7142fa9b2
+      internalID: -2065749761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 218
+        width: 190
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf52c285ad9aa47ad4b94401b1bd3e
+      internalID: 2010602144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_73
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 169
+        width: 190
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ee2247db93ecb4ab52fc23fc2c08e2
+      internalID: 357296542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_90
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 154
+        width: 190
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e064439485fa0045b034996e7a302c1
+      internalID: -141878699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_103
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 154
+        width: 136
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1653d0ee0f1f02f418b22f9018122043
+      internalID: 2013229849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_149
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 90
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60cee4eacccda4583902ff634a0842
+      internalID: -1310829858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_160
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 42
+        width: 47
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3634442ec316ad4cbe0400ebf5eb9ee
+      internalID: -1747860464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_167
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 32
+        width: 135
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ccc8af206dfd74c9fd6ac5559c863b
+      internalID: 1727099990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_186
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f3de5be8bab644d8cb7678e1dcb70e
+      internalID: 1195691873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_189
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 32
+        width: 46
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cd8e0a1dc52014798e79a8d7dfd22d
+      internalID: -1123928277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_198
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d2b148cb4e084ab17cc17b82c7286
+      internalID: -1181489523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_199
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4249500a6aa24414386e1aea8796ee3f
+      internalID: -1514796723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_200
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c0701ecfa2094da21da55bc354c5a
+      internalID: 351543149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_201
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea05fffe40b39b418ec18d672dc22e9
+      internalID: 1118476443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_202
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71147aae042faaa4294ff641dc7a7291
+      internalID: 681833876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_203
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f4c77ed2b61d349b9ef261548d78a8
+      internalID: 249683558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_204
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e54806b7e2ef914993e26268c4f08ee
+      internalID: 594166802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_205
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b02839cd4cf24847b5b4b673fac4b2c
+      internalID: -1223877809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_206
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8005bf5e87886f14ca8a8ca6351e684e
+      internalID: -1315338977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_207
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54474e47b3bca14196e504f5ad1b0b9
+      internalID: 875714197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_223
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 32
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096af6c40ca803e419a5a85a2d48dc9e
+      internalID: -758952033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_230
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 23
+        width: 48
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129e4fd88b1f6f24685e006372094132
+      internalID: -885641460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_238
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2860625c5c1dd74aaee0502fa6d565a
+      internalID: -1555181401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_239
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350d0995a49e41b4ba2631bd2d058414
+      internalID: -681366888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_240
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9494adfde75031e468adc96ab0f79790
+      internalID: 318921662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_241
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5546a6ce0b1d8f24cb5ca66a58ed32fe
+      internalID: -772673640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_242
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65b872318dbc034bb07da310a22e7d0
+      internalID: 729119511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_243
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16d80b0aa36ac34eb19dc06922733de
+      internalID: 787830983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_244
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76af39d241fbb5f4b8347f323000b377
+      internalID: 2113639883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_245
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110459204729e041b26b8cf729890a6
+      internalID: -60968246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_246
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f8e59c16e6b6c418bb085263244585
+      internalID: -738079048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_247
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05854483a5fc2b54b8b8178ccbac63f4
+      internalID: -1670682231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_276
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 12
+        width: 54
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364d474207f269241a8bad68f3256fd3
+      internalID: 261330589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_293
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 60
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cc4a09a8d5cda4a810971e520fd456
+      internalID: 1080923810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_298
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562f29cfa2ce7d74ba1fe0f881121cb6
+      internalID: -989487412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_303
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 60
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37977a1ccca8a0943bd89f52c50706e3
+      internalID: 1959670176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Galaxian - Screens_308
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1
+        width: 60
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f8ccb26a501e34cb2b533b4b94d80d
+      internalID: -1631994025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Galaxian - Screens_281: 1110353556
+      Arcade - Galaxian - Screens_145: 1077233481
+      Arcade - Galaxian - Screens_166: -1645923415
+      Arcade - Galaxian - Screens_171: 408343133
+      Arcade - Galaxian - Screens_214: 1704476845
+      Arcade - Galaxian - Screens_180: -873324856
+      Arcade - Galaxian - Screens_98: 1337380238
+      Arcade - Galaxian - Screens_285: 1210269456
+      Arcade - Galaxian - Screens_6: -1312647232
+      Arcade - Galaxian - Screens_169: 615114678
+      Arcade - Galaxian - Screens_178: 494955503
+      Arcade - Galaxian - Screens_70: -1057017716
+      Arcade - Galaxian - Screens_86: -1611956098
+      Arcade - Galaxian - Screens_35: -851708986
+      Arcade - Galaxian - Screens_259: 623705931
+      Arcade - Galaxian - Screens_194: 1151342311
+      Arcade - Galaxian - Screens_150: -1410867204
+      Arcade - Galaxian - Screens_237: -384929369
+      Arcade - Galaxian - Screens_308: -1631994025
+      Arcade - Galaxian - Screens_143: -951278716
+      Arcade - Galaxian - Screens_66: 1384738768
+      Arcade - Galaxian - Screens_206: -1315338977
+      Arcade - Galaxian - Screens_202: 681833876
+      Arcade - Galaxian - Screens_215: -2057796487
+      Arcade - Galaxian - Screens_159: 243457938
+      Arcade - Galaxian - Screens_172: 1071251102
+      Arcade - Galaxian - Screens_226: 965146696
+      Arcade - Galaxian - Screens_58: -1733641281
+      Arcade - Galaxian - Screens_193: 1929321122
+      Arcade - Galaxian - Screens_307: 2104865779
+      Arcade - Galaxian - Screens_188: -1906012324
+      Arcade - Galaxian - Screens_258: -1117050982
+      Arcade - Galaxian - Screens_304: -1924959219
+      Arcade - Galaxian - Screens_42: 529364618
+      Arcade - Galaxian - Screens_71: -496599759
+      Arcade - Galaxian - Screens_295: 1145540020
+      Arcade - Galaxian - Screens_161: -1571058983
+      Arcade - Galaxian - Screens_101: 1412995246
+      Arcade - Galaxian - Screens_240: 318921662
+      Arcade - Galaxian - Screens_7: 1973080150
+      Arcade - Galaxian - Screens_141: -388646564
+      Arcade - Galaxian - Screens_247: -1670682231
+      Arcade - Galaxian - Screens_139: -1099113920
+      Arcade - Galaxian - Screens_45: 1381057670
+      Arcade - Galaxian - Screens_9: -811474022
+      Arcade - Galaxian - Screens_291: 2016951121
+      Arcade - Galaxian - Screens_122: 1473232884
+      Arcade - Galaxian - Screens_77: 31168766
+      Arcade - Galaxian - Screens_149: -1310829858
+      Arcade - Galaxian - Screens_0: -893618642
+      Arcade - Galaxian - Screens_196: 232713988
+      Arcade - Galaxian - Screens_87: -736413610
+      Arcade - Galaxian - Screens_94: 149695767
+      Arcade - Galaxian - Screens_175: 1927643482
+      Arcade - Galaxian - Screens_224: 1337645703
+      Arcade - Galaxian - Screens_27: 116608568
+      Arcade - Galaxian - Screens_127: -1335716382
+      Arcade - Galaxian - Screens_18: -2030991161
+      Arcade - Galaxian - Screens_282: -1580979230
+      Arcade - Galaxian - Screens_242: 729119511
+      Arcade - Galaxian - Screens_90: -141878699
+      Arcade - Galaxian - Screens_37: 963225465
+      Arcade - Galaxian - Screens_163: 2137262208
+      Arcade - Galaxian - Screens_239: -681366888
+      Arcade - Galaxian - Screens_219: 1665755689
+      Arcade - Galaxian - Screens_15: 1841541717
+      Arcade - Galaxian - Screens_221: -663444056
+      Arcade - Galaxian - Screens_298: -989487412
+      Arcade - Galaxian - Screens_249: 1567381551
+      Arcade - Galaxian - Screens_154: -464827584
+      Arcade - Galaxian - Screens_153: 1802288488
+      Arcade - Galaxian - Screens_205: -1223877809
+      Arcade - Galaxian - Screens_173: -1202459992
+      Arcade - Galaxian - Screens_294: -503701234
+      Arcade - Galaxian - Screens_62: 1532610728
+      Arcade - Galaxian - Screens_119: 1868473017
+      Arcade - Galaxian - Screens_244: 2113639883
+      Arcade - Galaxian - Screens_29: 900824907
+      Arcade - Galaxian - Screens_265: -909902406
+      Arcade - Galaxian - Screens_47: 1916961361
+      Arcade - Galaxian - Screens_75: 1236530378
+      Arcade - Galaxian - Screens_261: 405446364
+      Arcade - Galaxian - Screens_89: 1393531478
+      Arcade - Galaxian - Screens_48: -1845251570
+      Arcade - Galaxian - Screens_267: -652170361
+      Arcade - Galaxian - Screens_64: 551053195
+      Arcade - Galaxian - Screens_286: 1933594126
+      Arcade - Galaxian - Screens_69: 1511840200
+      Arcade - Galaxian - Screens_115: -2010279345
+      Arcade - Galaxian - Screens_250: 443714598
+      Arcade - Galaxian - Screens_44: 892909436
+      Arcade - Galaxian - Screens_306: 349954712
+      Arcade - Galaxian - Screens_288: -1542197574
+      Arcade - Galaxian - Screens_292: -734266322
+      Arcade - Galaxian - Screens_33: 498990531
+      Arcade - Galaxian - Screens_222: -530058564
+      Arcade - Galaxian - Screens_310: -1096198927
+      Arcade - Galaxian - Screens_46: -626643459
+      Arcade - Galaxian - Screens_2: -618570444
+      Arcade - Galaxian - Screens_262: 1762414151
+      Arcade - Galaxian - Screens_106: 331080173
+      Arcade - Galaxian - Screens_210: 2078019687
+      Arcade - Galaxian - Screens_81: -448054202
+      Arcade - Galaxian - Screens_84: -493244681
+      Arcade - Galaxian - Screens_1: -824253285
+      Arcade - Galaxian - Screens_195: -1455805561
+      Arcade - Galaxian - Screens_299: 300282458
+      Arcade - Galaxian - Screens_123: 708651408
+      Arcade - Galaxian - Screens_217: -1235963956
+      Arcade - Galaxian - Screens_17: -1482044996
+      Arcade - Galaxian - Screens_22: -1139376725
+      Arcade - Galaxian - Screens_61: 86827015
+      Arcade - Galaxian - Screens_245: -60968246
+      Arcade - Galaxian - Screens_105: -455850270
+      Arcade - Galaxian - Screens_164: 1347588398
+      Arcade - Galaxian - Screens_99: 413746947
+      Arcade - Galaxian - Screens_296: 2019613735
+      Arcade - Galaxian - Screens_218: -873499635
+      Arcade - Galaxian - Screens_152: 2099565737
+      Arcade - Galaxian - Screens_185: -1575139814
+      Arcade - Galaxian - Screens_137: -902977117
+      Arcade - Galaxian - Screens_260: -2119336360
+      Arcade - Galaxian - Screens_67: -200413369
+      Arcade - Galaxian - Screens_12: -428748801
+      Arcade - Galaxian - Screens_211: -862275671
+      Arcade - Galaxian - Screens_39: -1849554571
+      Arcade - Galaxian - Screens_225: -1660861540
+      Arcade - Galaxian - Screens_57: 1726444416
+      Arcade - Galaxian - Screens_257: -908875094
+      Arcade - Galaxian - Screens_117: -1405065165
+      Arcade - Galaxian - Screens_43: -1368924710
+      Arcade - Galaxian - Screens_235: -2004096244
+      Arcade - Galaxian - Screens_31: -565431324
+      Arcade - Galaxian - Screens_92: -1591439865
+      Arcade - Galaxian - Screens_179: 1011691633
+      Arcade - Galaxian - Screens_121: -1652217445
+      Arcade - Galaxian - Screens_26: 153486368
+      Arcade - Galaxian - Screens_56: 2057972620
+      Arcade - Galaxian - Screens_72: -451154343
+      Arcade - Galaxian - Screens_174: 84574197
+      Arcade - Galaxian - Screens_275: -1337954834
+      Arcade - Galaxian - Screens_80: 965191565
+      Arcade - Galaxian - Screens_112: 711762432
+      Arcade - Galaxian - Screens_167: 1727099990
+      Arcade - Galaxian - Screens_201: 1118476443
+      Arcade - Galaxian - Screens_52: 661224544
+      Arcade - Galaxian - Screens_147: -644432810
+      Arcade - Galaxian - Screens_190: 666464894
+      Arcade - Galaxian - Screens_212: 308008272
+      Arcade - Galaxian - Screens_266: 1732590461
+      Arcade - Galaxian - Screens_133: 706457598
+      Arcade - Galaxian - Screens_279: -470645700
+      Arcade - Galaxian - Screens_55: 1111066773
+      Arcade - Galaxian - Screens_108: 435166273
+      Arcade - Galaxian - Screens_248: -190647461
+      Arcade - Galaxian - Screens_177: -176789248
+      Arcade - Galaxian - Screens_124: 1040036009
+      Arcade - Galaxian - Screens_24: -1544633159
+      Arcade - Galaxian - Screens_132: 1919653040
+      Arcade - Galaxian - Screens_13: 1441401757
+      Arcade - Galaxian - Screens_21: -233758525
+      Arcade - Galaxian - Screens_25: 2089857886
+      Arcade - Galaxian - Screens_38: -84434233
+      Arcade - Galaxian - Screens_49: 1644561824
+      Arcade - Galaxian - Screens_142: 951992935
+      Arcade - Galaxian - Screens_255: -853923264
+      Arcade - Galaxian - Screens_300: 1915785037
+      Arcade - Galaxian - Screens_14: -686311913
+      Arcade - Galaxian - Screens_270: -1058949755
+      Arcade - Galaxian - Screens_280: -968616096
+      Arcade - Galaxian - Screens_116: 548885011
+      Arcade - Galaxian - Screens_36: -2065749761
+      Arcade - Galaxian - Screens_134: 1128443835
+      Arcade - Galaxian - Screens_53: 2010602144
+      Arcade - Galaxian - Screens_238: -1555181401
+      Arcade - Galaxian - Screens_104: -943397610
+      Arcade - Galaxian - Screens_118: 411284600
+      Arcade - Galaxian - Screens_129: -1477583077
+      Arcade - Galaxian - Screens_207: 875714197
+      Arcade - Galaxian - Screens_256: 1981738902
+      Arcade - Galaxian - Screens_91: -942870362
+      Arcade - Galaxian - Screens_128: -1607578280
+      Arcade - Galaxian - Screens_146: -235486680
+      Arcade - Galaxian - Screens_65: -1794194141
+      Arcade - Galaxian - Screens_83: 1799884556
+      Arcade - Galaxian - Screens_74: -227861295
+      Arcade - Galaxian - Screens_97: -6836566
+      Arcade - Galaxian - Screens_28: 1797838712
+      Arcade - Galaxian - Screens_40: 522340911
+      Arcade - Galaxian - Screens_60: 35479388
+      Arcade - Galaxian - Screens_208: -450978150
+      Arcade - Galaxian - Screens_160: -1747860464
+      Arcade - Galaxian - Screens_19: 1901961961
+      Arcade - Galaxian - Screens_85: 1302196841
+      Arcade - Galaxian - Screens_204: 594166802
+      Arcade - Galaxian - Screens_184: -1018896362
+      Arcade - Galaxian - Screens_252: 4392479
+      Arcade - Galaxian - Screens_138: 85847355
+      Arcade - Galaxian - Screens_290: 1024798072
+      Arcade - Galaxian - Screens_268: -646020499
+      Arcade - Galaxian - Screens_110: 85650581
+      Arcade - Galaxian - Screens_102: -604570130
+      Arcade - Galaxian - Screens_254: 1718681730
+      Arcade - Galaxian - Screens_54: 1480250643
+      Arcade - Galaxian - Screens_293: 1080923810
+      Arcade - Galaxian - Screens_76: -867691635
+      Arcade - Galaxian - Screens_189: -1123928277
+      Arcade - Galaxian - Screens_168: -1696274000
+      Arcade - Galaxian - Screens_103: 2013229849
+      Arcade - Galaxian - Screens_95: -1475045481
+      Arcade - Galaxian - Screens_232: 1679570181
+      Arcade - Galaxian - Screens_228: -775874471
+      Arcade - Galaxian - Screens_113: -1539112739
+      Arcade - Galaxian - Screens_5: 1370242885
+      Arcade - Galaxian - Screens_158: -1098699228
+      Arcade - Galaxian - Screens_120: -1285773048
+      Arcade - Galaxian - Screens_148: 1347126392
+      Arcade - Galaxian - Screens_197: -1405362249
+      Arcade - Galaxian - Screens_23: -1459978800
+      Arcade - Galaxian - Screens_302: -1110122442
+      Arcade - Galaxian - Screens_63: 1279773025
+      Arcade - Galaxian - Screens_73: 357296542
+      Arcade - Galaxian - Screens_82: 693873910
+      Arcade - Galaxian - Screens_305: 261502416
+      Arcade - Galaxian - Screens_223: -758952033
+      Arcade - Galaxian - Screens_4: -1677921247
+      Arcade - Galaxian - Screens_156: -1606933094
+      Arcade - Galaxian - Screens_96: -1208572864
+      Arcade - Galaxian - Screens_176: 1511525291
+      Arcade - Galaxian - Screens_10: 705133884
+      Arcade - Galaxian - Screens_229: -939910456
+      Arcade - Galaxian - Screens_32: -967029917
+      Arcade - Galaxian - Screens_289: -861295
+      Arcade - Galaxian - Screens_114: -847928945
+      Arcade - Galaxian - Screens_246: -738079048
+      Arcade - Galaxian - Screens_209: 1728405839
+      Arcade - Galaxian - Screens_297: -840698205
+      Arcade - Galaxian - Screens_272: 962302287
+      Arcade - Galaxian - Screens_131: 1157164953
+      Arcade - Galaxian - Screens_51: -1875952977
+      Arcade - Galaxian - Screens_126: -1095913975
+      Arcade - Galaxian - Screens_309: -1085789127
+      Arcade - Galaxian - Screens_283: 787234267
+      Arcade - Galaxian - Screens_231: 1321155436
+      Arcade - Galaxian - Screens_263: 32730809
+      Arcade - Galaxian - Screens_276: 261330589
+      Arcade - Galaxian - Screens_251: 1870600497
+      Arcade - Galaxian - Screens_3: -1737548555
+      Arcade - Galaxian - Screens_79: 1685310759
+      Arcade - Galaxian - Screens_111: 103510928
+      Arcade - Galaxian - Screens_192: -1191244685
+      Arcade - Galaxian - Screens_278: 1775231159
+      Arcade - Galaxian - Screens_107: 575278835
+      Arcade - Galaxian - Screens_233: 1194999100
+      Arcade - Galaxian - Screens_213: 1391112252
+      Arcade - Galaxian - Screens_284: -235718877
+      Arcade - Galaxian - Screens_200: 351543149
+      Arcade - Galaxian - Screens_30: -1102198426
+      Arcade - Galaxian - Screens_287: 1104797117
+      Arcade - Galaxian - Screens_135: 71219898
+      Arcade - Galaxian - Screens_125: 470260124
+      Arcade - Galaxian - Screens_198: -1181489523
+      Arcade - Galaxian - Screens_243: 787830983
+      Arcade - Galaxian - Screens_151: -1817084238
+      Arcade - Galaxian - Screens_59: 71073319
+      Arcade - Galaxian - Screens_216: 1665502402
+      Arcade - Galaxian - Screens_241: -772673640
+      Arcade - Galaxian - Screens_68: 69208673
+      Arcade - Galaxian - Screens_136: -207794615
+      Arcade - Galaxian - Screens_234: 72943626
+      Arcade - Galaxian - Screens_269: 2026071189
+      Arcade - Galaxian - Screens_277: -1979075382
+      Arcade - Galaxian - Screens_157: -1319527734
+      Arcade - Galaxian - Screens_227: 1641851588
+      Arcade - Galaxian - Screens_182: -449064067
+      Arcade - Galaxian - Screens_186: 1195691873
+      Arcade - Galaxian - Screens_170: -2071860466
+      Arcade - Galaxian - Screens_181: -1622027242
+      Arcade - Galaxian - Screens_50: -146887980
+      Arcade - Galaxian - Screens_162: 1149078936
+      Arcade - Galaxian - Screens_187: -991677270
+      Arcade - Galaxian - Screens_165: 1616048483
+      Arcade - Galaxian - Screens_203: 249683558
+      Arcade - Galaxian - Screens_78: 1283549285
+      Arcade - Galaxian - Screens_93: -779849779
+      Arcade - Galaxian - Screens_191: -1444355206
+      Arcade - Galaxian - Screens_155: 9656134
+      Arcade - Galaxian - Screens_100: 289741937
+      Arcade - Galaxian - Screens_144: -2004143910
+      Arcade - Galaxian - Screens_271: -2021592525
+      Arcade - Galaxian - Screens_130: 1429957216
+      Arcade - Galaxian - Screens_183: 216464241
+      Arcade - Galaxian - Screens_20: 517749921
+      Arcade - Galaxian - Screens_34: -153904798
+      Arcade - Galaxian - Screens_273: 294735172
+      Arcade - Galaxian - Screens_199: -1514796723
+      Arcade - Galaxian - Screens_88: 1456691247
+      Arcade - Galaxian - Screens_236: 1574325449
+      Arcade - Galaxian - Screens_230: -885641460
+      Arcade - Galaxian - Screens_301: -1756925968
+      Arcade - Galaxian - Screens_109: -82822129
+      Arcade - Galaxian - Screens_274: -1384398147
+      Arcade - Galaxian - Screens_264: 1925121908
+      Arcade - Galaxian - Screens_11: 1156343932
+      Arcade - Galaxian - Screens_8: -1436405507
+      Arcade - Galaxian - Screens_303: 1959670176
+      Arcade - Galaxian - Screens_220: 891492215
+      Arcade - Galaxian - Screens_253: 1662825819
+      Arcade - Galaxian - Screens_41: 1544942643
+      Arcade - Galaxian - Screens_16: -1032912265
+      Arcade - Galaxian - Screens_140: -1604112108
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

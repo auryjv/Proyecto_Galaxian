@@ -823,9 +823,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 171
-        y: 151
-        width: 5
-        height: 7
+        y: 150
+        width: 43
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,9 +844,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 171
-        y: 151
+        y: 159
         width: 16
-        height: 16
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,55 +861,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_36
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 151
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 404678838a769ea45a46acceac7a2eaf
-      internalID: 717480191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_37
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 151
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da01f5536bca3744a994b047aaff446d
-      internalID: -98317057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_38
       rect:
         serializedVersion: 2
         x: 188
-        y: 151
+        y: 159
         width: 16
-        height: 16
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,69 +877,6 @@ TextureImporter:
       bones: []
       spriteID: c591512f415921f4e9569870f8734084
       internalID: 1640570497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_39
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 151
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6b85189a33063e4b975d881a355304e
-      internalID: 1121580028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_40
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 151
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d507b00361e8854a967afeee50a6419
-      internalID: 732126228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_41
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 151
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 067ea196ba5e8ea4795312fb4fc60440
-      internalID: -974227188
       vertices: []
       indices: 
       edges: []
@@ -1118,7 +1013,7 @@ TextureImporter:
         serializedVersion: 2
         x: 103
         y: 134
-        width: 23
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1134,34 +1029,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_49
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 136
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0545d2b6ca7679049ae1c02b51a14a26
-      internalID: -1398267020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_50
       rect:
         serializedVersion: 2
-        x: 134
-        y: 136
-        width: 4
-        height: 7
+        x: 119
+        y: 134
+        width: 100
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1171,237 +1045,6 @@ TextureImporter:
       bones: []
       spriteID: 82a54dc5c894dc84893e8effae72ea9e
       internalID: -335959594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_51
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 138
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd080ade211d4c54989263febb6614d6
-      internalID: 803441691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_52
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 138
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc8eaad13d980b0449b331a2f7f3d2a8
-      internalID: 325430097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_53
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 138
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18d08ac2ea649274387439ee6a95bd44
-      internalID: -1604865838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_54
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 136
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e15fbd99d8d67c40bf44f9c5b0f75eb
-      internalID: -2140644943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_55
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 138
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53df56a0998acbc4abde5eec79444ab5
-      internalID: -1712873699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_56
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 138
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09a996e9de7f18c4c960bac842b91c1c
-      internalID: -212081563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_57
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 138
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d50869478e2f5884fb5f001e7b7fe8f7
-      internalID: 187088269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_58
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 138
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f624df7018b67a4999a727c10ce1b7f
-      internalID: -1408313463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_59
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 138
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e62e61ed7ec61564abe3bc0bb298be1d
-      internalID: 448081776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_60
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 138
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8a7ca69416fd1640b2fb83f44b3fc59
-      internalID: 2006015057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_61
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 138
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dbdfb668c9e4224384f1e14997f8210
-      internalID: -1666614304
       vertices: []
       indices: 
       edges: []
@@ -1621,9 +1264,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 163
-        y: 100
+        y: 116
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,216 +1386,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_78
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 87
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42169b2e8c7df1346928c0c6d0c45d45
-      internalID: -761868353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_79
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 100
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1deaa04fa07caa844b449a408a72abf3
-      internalID: 42848187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_80
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 87
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e30bc5b8f5c51044eb3bf875668c7b14
-      internalID: -712608327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_81
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 100
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04fe0a1270888e54fa301b648a5d7736
-      internalID: 559007628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_82
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 87
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f9a619ec7b841d4680963169aff5ae8
-      internalID: 62887493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_83
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 100
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a0b1fbb871f34541b617847b8502506
-      internalID: -1036775151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_84
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 87
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade359232b83a4148b6dffc0eb9168a1
-      internalID: -463529978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_85
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 87
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95b17672bdf99e04d866637b998bab93
-      internalID: -1678470570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_86
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 85
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ff67eb34b2d27942b2c9b26edaece91
-      internalID: 220802030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_87
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 87
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94a33d51cc822124d8cee9e51ffac5bf
-      internalID: -1859833223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_88
       rect:
         serializedVersion: 2
@@ -1969,48 +1402,6 @@ TextureImporter:
       bones: []
       spriteID: cc74ec11971fbcd4eac26eebf164a6be
       internalID: 1497339420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_89
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 87
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fba4c4fba9571047b9b9fe0a26b9ac1
-      internalID: -944361963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_90
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 87
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ffe6cfa405dcfe47b3d756bf3a796ae
-      internalID: 1142084564
       vertices: []
       indices: 
       edges: []
@@ -2415,27 +1806,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_110
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 74
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7badff2baa314e44696a69f801ac535a
-      internalID: 1282415919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_111
       rect:
         serializedVersion: 2
@@ -2452,90 +1822,6 @@ TextureImporter:
       bones: []
       spriteID: 78526cbbd5c0c1941a4e672f7915cdeb
       internalID: 1664749620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_112
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 74
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc0b36e0c64f69b488f46bd97cb56890
-      internalID: -1431242684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_113
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 74
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 213fe2d4a222402449bc8bdb232f15d2
-      internalID: 907787894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_114
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 74
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d15cc92d006969a449d81d2bef364cae
-      internalID: 1706511747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_115
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 74
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7de34878246923a4584c394b2f574c98
-      internalID: 379787554
       vertices: []
       indices: 
       edges: []
@@ -2919,27 +2205,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_134
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 61
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e6c3e510b1be174183edabe8077a5ae
-      internalID: -869331376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_135
       rect:
         serializedVersion: 2
@@ -2956,27 +2221,6 @@ TextureImporter:
       bones: []
       spriteID: 3e05645b0f4d61440addef8bd2b558ef
       internalID: 451011586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_136
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 59
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54cd37c5a5845dd4fbb7e96144c3fc6d
-      internalID: 1348004708
       vertices: []
       indices: 
       edges: []
@@ -4578,48 +3822,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_213
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 13
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f20b57776b82bc4599e8bbe390911d5
-      internalID: -817273656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_214
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 3
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c299a81a066aaf48b8eea613196b729
-      internalID: -1403505503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_215
       rect:
         serializedVersion: 2
@@ -4662,27 +3864,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_217
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 3
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 973a37b14212cab41bf6120467fea5bf
-      internalID: 1574595834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_218
       rect:
         serializedVersion: 2
@@ -4704,55 +3885,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_219
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 1
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e7f09c87e948fc4b8e7970b357778fc
-      internalID: -95778722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_220
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 3
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73661f7151308ae4f93070e39f972f26
-      internalID: 1167265276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_221
       rect:
         serializedVersion: 2
-        x: 32
-        y: 3
-        width: 4
-        height: 7
+        x: 1
+        y: 11
+        width: 64
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4762,27 +3901,6 @@ TextureImporter:
       bones: []
       spriteID: 9cadb757645a44e409d55327fb13dac2
       internalID: -1552600412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_222
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 3
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cac136b45f24ba641a0880d0a1a2eeea
-      internalID: -400892770
       vertices: []
       indices: 
       edges: []
@@ -4809,27 +3927,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_224
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 3
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84168236d2047ff409faef82da03df93
-      internalID: 947643824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_225
       rect:
         serializedVersion: 2
@@ -4851,139 +3948,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_226
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 3
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c7bece011962ff4ab0766c2873e93a0
-      internalID: 1362161959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_227
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 3
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21159f5664576b14c80590a933d2009a
-      internalID: 1548500035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_228
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 1
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4d1a4cc9a6e3b0458457fc0108710e4
-      internalID: 643515822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_229
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 3
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6912ff2fa50f9143a0e9574e886b7ac
-      internalID: -608297140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_230
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 3
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b37f8e10fe90a6541bea20b76e68aba2
-      internalID: 139107851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_231
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 3
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dac6aeca7a665f84abfee0d90f7e9174
-      internalID: -846678708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_232
       rect:
         serializedVersion: 2
         x: 139
         y: 3
-        width: 10
-        height: 7
+        width: 1
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4993,69 +3964,6 @@ TextureImporter:
       bones: []
       spriteID: 44d00a45f66376e4d971adbd09b942cf
       internalID: 14898122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_233
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 3
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d344c0a262751f408e4ad37ade75819
-      internalID: 502296658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_234
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 3
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9f8a30bd5080ff458ea31000e76ac7f
-      internalID: 1527110194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_235
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 3
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd1622a0e9b84ca4b854ce8e8b164173
-      internalID: 501349366
       vertices: []
       indices: 
       edges: []
@@ -5082,69 +3990,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_237
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 3
-        width: 13
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0120c8c4f15bfa94ca8c00f6059d6368
-      internalID: -1318352333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_238
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 1
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0f98376dab25fb48a696b0827472c7e
-      internalID: -1618175276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Limpio Arcade - Galaxian - General Sprites_239
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 3
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff8fbbbf030891147ab906845592eec1
-      internalID: 377765141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Limpio Arcade - Galaxian - General Sprites_240
       rect:
         serializedVersion: 2
@@ -5153,7 +3998,7 @@ TextureImporter:
         width: 1
         height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5289,8 +4134,8 @@ TextureImporter:
       Limpio Arcade - Galaxian - General Sprites_231: -846678708
       Limpio Arcade - Galaxian - General Sprites_158: -797835800
       Limpio Arcade - Galaxian - General Sprites_4: 852892824
-      Limpio Arcade - Galaxian - General Sprites_32: 468670842
       Limpio Arcade - Galaxian - General Sprites_125: 1885277191
+      Limpio Arcade - Galaxian - General Sprites_32: 468670842
       Limpio Arcade - Galaxian - General Sprites_37: -98317057
       Limpio Arcade - Galaxian - General Sprites_67: 837356134
       Limpio Arcade - Galaxian - General Sprites_46: 1774326382

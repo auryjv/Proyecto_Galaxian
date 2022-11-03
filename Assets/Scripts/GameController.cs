@@ -30,7 +30,7 @@ public class GameController : MonoBehaviour
   }
   public void SumarPuntosMarcador(int puntos)
   {
-   marcadorText.text = " High Score: " + puntos;
+   marcadorText.text = "" + puntos;
   }
 
   public void AnotarPuntos()
