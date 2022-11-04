@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class EnemigoRojo : Enemigo
 {
- 
-    void Start()
-    {
-    int TipoNave = 1;
+
+  void Start()
+  {
+    base.Start();
+    TipoNave = 1;
   }
 
-
-    void Update()
-    {
-        
-    }
 }

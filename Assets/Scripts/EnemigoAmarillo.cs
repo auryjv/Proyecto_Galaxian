@@ -6,7 +6,8 @@ public class EnemigoAmarillo : Enemigo
 {
   void Start()
   {
-    tipoNave = 0;
+    base.Start();
+    TipoNave = 0;
   }
-  
+
 }

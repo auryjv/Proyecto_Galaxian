@@ -1967,7 +1967,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624178767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.939801, y: 0.17772515, z: 1.366952}
+  m_LocalPosition: {x: 2.939801, y: 0.17772515, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2100,6 +2100,19 @@ MonoBehaviour:
   - {fileID: 1747523889}
   - {fileID: 69966654}
   - {fileID: 1338399665}
+  wayPoints1:
+  - {fileID: 1613310636}
+  - {fileID: 257542509}
+  - {fileID: 296232841}
+  - {fileID: 130037805}
+  - {fileID: 1613882818}
+  wayPoints2:
+  - {fileID: 1696259533}
+  - {fileID: 1816251536}
+  - {fileID: 1339196564}
+  - {fileID: 1690520614}
+  - {fileID: 1613882818}
+  bloque: {fileID: 1789376656}
   marcadorText: {fileID: 352446272}
   PrefabEnemigoRojo: {fileID: 5959848518162648815, guid: a0281f52fbefe9047b985958245df479, type: 3}
   PrefabEnemigoVerde: {fileID: 8104594157962297543, guid: c34374f71532b3144a5456c7483996af, type: 3}
@@ -2986,8 +2999,8 @@ Transform:
   m_Children:
   - {fileID: 1696259533}
   - {fileID: 1816251536}
-  - {fileID: 1690520614}
   - {fileID: 1339196564}
+  - {fileID: 1690520614}
   m_Father: {fileID: 1789376658}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3581,7 +3594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1339196564}
   m_Layer: 0
-  m_Name: OrigenD.d
+  m_Name: OrigenD.c
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3600,7 +3613,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1043807201}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1352713062
 PrefabInstance:
@@ -5135,7 +5148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690520614}
   m_Layer: 0
-  m_Name: OrigenD.c
+  m_Name: OrigenD.d
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5154,7 +5167,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1043807201}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1696259532
 GameObject:

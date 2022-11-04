@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5361734308153375721}
   - component: {fileID: 8527089889915336566}
   - component: {fileID: -4144793286056295576}
+  - component: {fileID: 2654702362651013877}
   m_Layer: 0
   m_Name: EnemigoRojo
   m_TagString: Enemigo
@@ -148,3 +149,24 @@ MonoBehaviour:
   PrefabDisparoEnemigo: {fileID: 6369003059389191427, guid: ec60a12c2ad00324383d9dc1e953d86e, type: 3}
   velocidadDisparoEnemigo: -6
   velocidad: 2
+--- !u!50 &2654702362651013877
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5959848518162648808}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

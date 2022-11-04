@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8485813416956987024}
   - component: {fileID: 3506780322543579383}
   - component: {fileID: -1604828965800447083}
+  - component: {fileID: -8899297299264360582}
   m_Layer: 0
   m_Name: EVerde
   m_TagString: Enemigo
@@ -148,3 +149,24 @@ MonoBehaviour:
   PrefabDisparoEnemigo: {fileID: 6369003059389191427, guid: ec60a12c2ad00324383d9dc1e953d86e, type: 3}
   velocidadDisparoEnemigo: -6
   velocidad: 2
+--- !u!50 &-8899297299264360582
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671161467243399553}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

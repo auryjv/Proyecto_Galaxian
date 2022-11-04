@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1405106126988975891}
   - component: {fileID: -153999366587332618}
   - component: {fileID: 1508185188436606197}
+  - component: {fileID: -2456514540759283476}
   m_Layer: 0
   m_Name: ELila
   m_TagString: Enemigo
@@ -148,3 +149,24 @@ MonoBehaviour:
   PrefabDisparoEnemigo: {fileID: 6369003059389191427, guid: ec60a12c2ad00324383d9dc1e953d86e, type: 3}
   velocidadDisparoEnemigo: -6
   velocidad: 2
+--- !u!50 &-2456514540759283476
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6993925029602306327}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

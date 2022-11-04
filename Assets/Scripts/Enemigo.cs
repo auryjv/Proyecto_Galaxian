@@ -8,7 +8,7 @@ public class Enemigo : MonoBehaviour
 {
   public Transform PrefabDisparoEnemigo;
   public float velocidadDisparoEnemigo ;
- // [SerializeField] List<Transform> wayPoints;
+
   [SerializeField] float velocidad = 2;
   private float distanciaCambio = 0.2f;
   private byte numeroSiguientePosicion = 0;
@@ -16,34 +16,38 @@ public class Enemigo : MonoBehaviour
   private float incrementoVelocidadPorNivel = 0.3f;
   Vector3 posicionInicial;
   bool alcanzado = false;
-  protected int tipoNave;
+  protected int TipoNave;
+  protected Transform[] wayPoints;
+  bool modoAtaque = false;
 
-    void Start()
+    protected void Start()
     {
+      modoAtaque = false;
       posicionInicial = transform.position;
-      //siguientePosicion = wayPoints[0].position;
       int nivelActual = FindObjectOfType<GameStatus>().nivelActual;
       if (nivelActual > 1) velocidad += nivelActual * incrementoVelocidadPorNivel;
+
+      wayPoints = FindObjectOfType<GameController>().GetWayPoints(transform.position);
+      if (wayPoints.Length > 0)
+        siguientePosicion = wayPoints[0].position;
     }
 
   void Update()
   {
-    
-    /*
-     * transform.position = Vector3.MoveTowards(
-    transform.position,
-    siguientePosicion,
-    velocidad * Time.deltaTime);
-
-    if (Vector3.Distance(transform.position, siguientePosicion) < distanciaCambio)
+    if (modoAtaque)
     {
-      numeroSiguientePosicion++;
-      if (numeroSiguientePosicion >= wayPoints.Count)
-        numeroSiguientePosicion = 0;
-      siguientePosicion = wayPoints[numeroSiguientePosicion].position;
+      transform.position = Vector3.MoveTowards(transform.position, siguientePosicion, velocidad * Time.deltaTime);
 
+      if (Vector3.Distance(transform.position, siguientePosicion) < distanciaCambio)
+      {
+        numeroSiguientePosicion++;
+        if (numeroSiguientePosicion >= wayPoints.Length)
+          numeroSiguientePosicion = 0;
+        siguientePosicion = wayPoints[numeroSiguientePosicion].position;
+
+      }
     }
-   */
+   
 
    }
 
@@ -58,29 +62,32 @@ public class Enemigo : MonoBehaviour
         {
           alcanzado = true;
           gameObject.GetComponent<Animator>().SetTrigger("Destroy");
-          FindObjectOfType<GameController>().SendMessage("AnotarPuntos");
+          FindObjectOfType<GameController>().AnotarPuntos(modoAtaque);
         }
       }
-      else if (other.tag == "limiteInferior")
+      else if (other.tag == "LimiteInferior")
       {
-        FindObjectOfType<GameController>().SendMessage("Renacer");
-        Destroy(other.gameObject);
+        FindObjectOfType<GameController>().Renacer(TipoNave, posicionInicial);
+        Destroy(gameObject);
       }
     }
 
      public void InicioAtaque()
     {
+      modoAtaque = true;
       StartCoroutine(Disparar());
     }
 
      IEnumerator Disparar()
     {
-      Debug.Log("Enemigo Dispara");
-      float pausa = Random.Range(1.0f, 3.0f);
-      yield return new WaitForSeconds(pausa);
-      Transform disparoEnemigo = Instantiate(PrefabDisparoEnemigo, transform.position, Quaternion.identity);
-      disparoEnemigo.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(0, velocidadDisparoEnemigo, 0);
-      StartCoroutine(Disparar());
+      if (modoAtaque)
+      {
+        float pausa = Random.Range(1.0f, 3.0f);
+        yield return new WaitForSeconds(pausa);
+        Transform disparoEnemigo = Instantiate(PrefabDisparoEnemigo, transform.position, Quaternion.identity);
+        disparoEnemigo.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(0, velocidadDisparoEnemigo, 0);
+        StartCoroutine(Disparar());
+      }
     }
 
 

@@ -8,6 +8,9 @@ using TMPro;
 public class GameController : MonoBehaviour
 {   [SerializeField] GameObject[] contadorVidas;
     [SerializeField] GameObject[] contadorNiveles;
+    [SerializeField] Transform[] wayPoints1;
+    [SerializeField] Transform[] wayPoints2;
+    [SerializeField] GameObject bloque;
     private int  puntos;
     private int  vidas;
     private int nivelActual;
@@ -20,6 +23,9 @@ public class GameController : MonoBehaviour
     public Transform PrefabEnemigoAmarillo;
     public Transform PrefabNave;
     public GameObject gameOver;
+    private float ataqueDelay;
+  private int navesAtacando = 0;
+    private int maxNavesAtacando = 5;
 
   void Start()
     {
@@ -27,6 +33,8 @@ public class GameController : MonoBehaviour
     puntos = FindObjectOfType<GameStatus>().puntos;
     vidas = FindObjectOfType<GameStatus>().vidas;
     gameOver.SetActive(false);
+    ataqueDelay = Random.Range(3, 5);
+    navesAtacando = 0;
 
     SumarPuntosMarcador(puntos);
     // Ocultamos todas las vidas
@@ -44,11 +52,27 @@ public class GameController : MonoBehaviour
       contadorNiveles[i].gameObject.SetActive(true);
 
     enemigosRestantes = FindObjectsOfType<Enemigo>().Length;
-    // List<GameObject> listEnemigos = new List<GameObject>(FindObjectsOfType<Enemigo>().Select(enemy => enemy.gameObject));
    
-    Debug.Log("Enemigos Rstantes: " + enemigosRestantes + " Nivel: " + nivelActual + " Vidas: " + vidas);
-    // GetRandomEnemy().SetActive(false);
-    GetRandomEnemy().InicioAtaque();
+    Debug.Log("Enemigos Rstantes: " + enemigosRestantes + " Nivel: " + nivelActual + " Vidas: " + vidas);    
+  }
+
+  void Update()
+  {
+    ataqueDelay -= Time.deltaTime;
+    if (ataqueDelay < 0)
+    {
+      if (navesAtacando < maxNavesAtacando)
+      {
+        GetRandomEnemy().InicioAtaque();
+        ataqueDelay = Random.Range(3, 5);
+        navesAtacando++;
+      }
+      else
+      {
+        ataqueDelay = Random.Range(0, 1);
+      }
+      
+    }
   }
 
   public Enemigo GetRandomEnemy()
@@ -63,13 +87,23 @@ public class GameController : MonoBehaviour
    marcadorText.text = "" + puntos;
   }
 
-  public void AnotarPuntos()
+  public void AnotarPuntos(bool naveAtacando)
   {
-    puntos += 10;
     //GetComponent<AudioSource>().Play();
+    
+    enemigosRestantes--;
+
+    if (naveAtacando)
+    {
+      navesAtacando--;
+      puntos += 30;
+    } else
+    {
+      puntos += 10;
+    }
     FindObjectOfType<GameStatus>().puntos = puntos;
     SumarPuntosMarcador(puntos);
-    enemigosRestantes--;
+
     Debug.Log("Quedan Enemigos; " + enemigosRestantes);
     if (enemigosRestantes == 0)
     {
@@ -88,15 +122,11 @@ public class GameController : MonoBehaviour
     {
       Debug.Log("Reviviendo Nave");
       StartCoroutine(Revivir());
-
-      // SceneManager.LoadScene("GameOver");
     }
     else
     {
       gameOver.SetActive(true);
     }
-    /*Application.Quit();
-    */
   }
 
   IEnumerator Revivir()
@@ -107,6 +137,7 @@ public class GameController : MonoBehaviour
     Instantiate(PrefabNave, posicionInicial, Quaternion.identity);
     Debug.Log("After Waiting 2 Seconds");
   }
+
   public void CambiarNivel()
   {
     nivelActual++;
@@ -120,22 +151,31 @@ public class GameController : MonoBehaviour
 
   public void Renacer(int tipoNave, Vector3 posicionInicial)
   {
+    navesAtacando--;
+
     if (tipoNave == 0)
     {
-      Transform naveEnemigo = Instantiate(PrefabEnemigoAmarillo, posicionInicial, Quaternion.identity);
+      Transform naveEnemigo = Instantiate(PrefabEnemigoAmarillo, posicionInicial, Quaternion.identity, bloque.transform);
     }
     else if (tipoNave == 1)
     {
-      Transform naveEnemigo = Instantiate(PrefabEnemigoRojo, posicionInicial, Quaternion.identity);
+      Transform naveEnemigo = Instantiate(PrefabEnemigoRojo, posicionInicial, Quaternion.identity, bloque.transform);
     }
     else if (tipoNave == 2)
     {
-      Transform naveEnemigo = Instantiate(PrefabEnemigoLila, posicionInicial, Quaternion.identity);
+      Transform naveEnemigo = Instantiate(PrefabEnemigoLila, posicionInicial, Quaternion.identity, bloque.transform);
     }
     else
     {
-      Transform naveEnemigo = Instantiate(PrefabEnemigoVerde, posicionInicial, Quaternion.identity);
+      Transform naveEnemigo = Instantiate(PrefabEnemigoVerde, posicionInicial, Quaternion.identity, bloque.transform);
     }
+  }
+
+  public Transform[] GetWayPoints(Vector2 position)
+  {
+    int camino = Random.Range(0, 1);
+    if(camino == 0) return wayPoints1;
+    else return wayPoints2; 
   }
 
 }
