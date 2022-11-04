@@ -10,17 +10,13 @@ public class Disparo : MonoBehaviour
     {
       explosion = gameObject.GetComponent<Animator>();
     }
-  /*
+  
     private void OnTriggerEnter2D(Collider2D other)
     {
-      if (other.tag == "Enemigo")
+      if (other.tag == "Limite")
       {
-      
-        //Destroy(other.gameObject);
-        //gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
-        //explosion.SetTrigger("Active");
          Destroy(gameObject);
       }
     }
-  */
+  
 }

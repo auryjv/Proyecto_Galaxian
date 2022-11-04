@@ -22,9 +22,9 @@ public class GameController : MonoBehaviour
     public Transform PrefabEnemigoLila;
     public Transform PrefabEnemigoAmarillo;
     public Transform PrefabNave;
-    public GameObject gameOver;
+    public TextMeshProUGUI gameOver;
     private float ataqueDelay;
-  private int navesAtacando = 0;
+    private int navesAtacando = 0;
     private int maxNavesAtacando = 5;
 
   void Start()
@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
     nivelActual = FindObjectOfType<GameStatus>().nivelActual;
     puntos = FindObjectOfType<GameStatus>().puntos;
     vidas = FindObjectOfType<GameStatus>().vidas;
-    gameOver.SetActive(false);
+    gameOver.gameObject.SetActive(false);
     ataqueDelay = Random.Range(3, 5);
     navesAtacando = 0;
 
@@ -51,9 +51,7 @@ public class GameController : MonoBehaviour
     for (int i = 0; i < nivelActual; i++)
       contadorNiveles[i].gameObject.SetActive(true);
 
-    enemigosRestantes = FindObjectsOfType<Enemigo>().Length;
-   
-    Debug.Log("Enemigos Rstantes: " + enemigosRestantes + " Nivel: " + nivelActual + " Vidas: " + vidas);    
+    enemigosRestantes = FindObjectsOfType<Enemigo>().Length;   
   }
 
   void Update()
@@ -63,9 +61,13 @@ public class GameController : MonoBehaviour
     {
       if (navesAtacando < maxNavesAtacando)
       {
-        GetRandomEnemy().InicioAtaque();
-        ataqueDelay = Random.Range(3, 5);
-        navesAtacando++;
+        Enemigo e = GetRandomEnemy();
+        if (e != null)
+        {
+          e.InicioAtaque();
+          ataqueDelay = Random.Range(3, 5);
+          navesAtacando++;
+        }
       }
       else
       {
@@ -78,8 +80,12 @@ public class GameController : MonoBehaviour
   public Enemigo GetRandomEnemy()
   {
     var listaEnemigos = FindObjectsOfType<Enemigo>();
-    int n = Random.Range(0, listaEnemigos.Length);
-    return listaEnemigos[n].gameObject.GetComponent<Enemigo>();
+    if (listaEnemigos.Length > 0)
+    {
+      int n = Random.Range(0, listaEnemigos.Length);
+      return listaEnemigos[n].gameObject.GetComponent<Enemigo>();
+    }
+    return null;
   }
 
   public void SumarPuntosMarcador(int puntos)
@@ -87,27 +93,26 @@ public class GameController : MonoBehaviour
    marcadorText.text = "" + puntos;
   }
 
-  public void AnotarPuntos(bool naveAtacando)
-  {
-    //GetComponent<AudioSource>().Play();
-    
+  public void AnotarPuntos(bool naveAtacando, int p)
+  {    
     enemigosRestantes--;
+
 
     if (naveAtacando)
     {
       navesAtacando--;
-      puntos += 30;
+      puntos += (p + 30);
     } else
     {
-      puntos += 10;
+      puntos += p;
     }
     FindObjectOfType<GameStatus>().puntos = puntos;
     SumarPuntosMarcador(puntos);
 
-    Debug.Log("Quedan Enemigos; " + enemigosRestantes);
     if (enemigosRestantes == 0)
     {
-      CambiarNivel();
+
+      StartCoroutine(CambiarNivel());
     }
   }
 
@@ -120,33 +125,42 @@ public class GameController : MonoBehaviour
     
     if (vidas > 0)
     {
-      Debug.Log("Reviviendo Nave");
       StartCoroutine(Revivir());
     }
     else
     {
-      gameOver.SetActive(true);
+      gameOver.gameObject.SetActive(true);
     }
   }
 
   IEnumerator Revivir()
   {
-    Debug.Log("Before Waiting 2 seconds");
     yield return new WaitForSeconds(1);
     Vector2 posicionInicial = new Vector2(0, -4);
     Instantiate(PrefabNave, posicionInicial, Quaternion.identity);
-    Debug.Log("After Waiting 2 Seconds");
   }
 
-  public void CambiarNivel()
+  IEnumerator CambiarNivel()
   {
+    yield return new WaitForSeconds(2);
     nivelActual++;
     if (nivelActual >= FindObjectOfType<GameStatus>().ultimoNivel)
     {
-      SceneManager.LoadScene("Fin");
+      StartCoroutine(ReiniciarJuego());
     }
-    FindObjectOfType<GameStatus>().nivelActual = nivelActual;
-    SceneManager.LoadScene("Nivel" + nivelActual);
+    else
+    {
+      FindObjectOfType<GameStatus>().nivelActual = nivelActual;
+      SceneManager.LoadScene("Nivel" + nivelActual);
+    }
+  }
+
+  IEnumerator ReiniciarJuego()
+  {
+    gameOver.text = "You Win";
+    gameOver.gameObject.SetActive(true);
+    yield return new WaitForSeconds(2);
+    SceneManager.LoadScene("Inicio");
   }
 
   public void Renacer(int tipoNave, Vector3 posicionInicial)
@@ -173,8 +187,8 @@ public class GameController : MonoBehaviour
 
   public Transform[] GetWayPoints(Vector2 position)
   {
-    int camino = Random.Range(0, 1);
-    if(camino == 0) return wayPoints1;
+    int camino = Random.Range(0, 100);
+    if(camino%2 == 0) return wayPoints1;
     else return wayPoints2; 
   }
 

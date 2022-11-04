@@ -6,6 +6,7 @@ public class Nave : MonoBehaviour
 {
   private float velocidadX = 8;
   [SerializeField] Transform PrefabDisparo;
+  [SerializeField] Transform prefabExplosion;
   private float velocidadDisparo = 4;
   bool alcanzado;
   void Start()
@@ -29,8 +30,11 @@ public class Nave : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-      if (other.tag == "DisparoEnemigo")
+      if (other.tag == "DisparoEnemigo" || other.tag == "Enemigo")
       {
+        Transform explosion = Instantiate(prefabExplosion, other.transform.position, Quaternion.identity);
+        explosion.gameObject.GetComponent<AudioSource>().Play();
+        Destroy(explosion.gameObject, 1f);
         Destroy(other.gameObject);
         if(!alcanzado)
         {
@@ -39,6 +43,7 @@ public class Nave : MonoBehaviour
         }
         
       }
+
      
     }
 

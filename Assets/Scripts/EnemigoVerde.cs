@@ -9,6 +9,7 @@ public class EnemigoVerde : Enemigo
   {
     base.Start();
     TipoNave = 3;
+    Puntos = 30;
   }
 
 

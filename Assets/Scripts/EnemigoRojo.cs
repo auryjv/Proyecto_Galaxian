@@ -9,6 +9,7 @@ public class EnemigoRojo : Enemigo
   {
     base.Start();
     TipoNave = 1;
+    Puntos = 50;
   }
 
 }

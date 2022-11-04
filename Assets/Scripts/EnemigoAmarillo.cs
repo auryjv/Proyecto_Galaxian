@@ -8,6 +8,7 @@ public class EnemigoAmarillo : Enemigo
   {
     base.Start();
     TipoNave = 0;
+    Puntos = 60;
   }
 
 }

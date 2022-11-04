@@ -9,6 +9,7 @@ public class EnemigoMorado : Enemigo
   {
     base.Start();
     TipoNave = 2;
+    Puntos = 40;
   }
     
 
