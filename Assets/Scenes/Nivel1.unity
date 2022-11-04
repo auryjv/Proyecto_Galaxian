@@ -2216,7 +2216,7 @@ MonoBehaviour:
   PrefabEnemigoLila: {fileID: 194321489923562731, guid: 0056bf2e0a2580f479073b69a8fc36c0, type: 3}
   PrefabEnemigoAmarillo: {fileID: 4041061414296039323, guid: a91c42abe941b1f47ad109f32c858b73, type: 3}
   PrefabNave: {fileID: 3787780088519360587, guid: b0f45fa9a844fe84095202a1fa061a88, type: 3}
-  gameOver: {fileID: 2031660812}
+  gameOver: {fileID: 2031660814}
 --- !u!4 &658397362
 Transform:
   m_ObjectHideFlags: 0

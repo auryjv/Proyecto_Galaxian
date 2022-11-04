@@ -144,7 +144,7 @@ public class GameController : MonoBehaviour
   {
     yield return new WaitForSeconds(2);
     nivelActual++;
-    if (nivelActual >= FindObjectOfType<GameStatus>().ultimoNivel)
+    if (nivelActual > FindObjectOfType<GameStatus>().ultimoNivel)
     {
       StartCoroutine(ReiniciarJuego());
     }
